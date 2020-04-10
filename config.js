@@ -54,7 +54,17 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
+						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					
+					},
+					{
+						symbol: "MyCalendar",
+						url: "https://calendar.google.com/calendar/ical/jonathanbvargas%40gmail.com/private-f74e1da60fc69e33a37581e8ffa4c25c/basic.ics"					
+					},
+					{
+						symbol: "UNI",
+						url: "https://calendar.google.com/calendar/ical/vlrsolp5rer4al4auhnc9ddc1g%40group.calendar.google.com/private-4d988334115d931e55551fd9740ce2ce/basic.ics"					
+					},
+					
 				]
 			}
 		},
@@ -64,7 +74,7 @@ var config = {
 		},
 		{
 			module: "currentweather",
-			position: "top_right",
+			position: "top_left",
 			config: {
 				location: "Regina",
 				locationID: "6119109", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
@@ -73,7 +83,7 @@ var config = {
 		},
 		{
 			module: "weatherforecast",
-			position: "top_right",
+			position: "top_left",
 			header: "Weather Forecast",
 			config: {
 				location: "Regina",
@@ -108,6 +118,8 @@ var config = {
 		    refreshToken: "AQCxlnPXXgHjJsUjdQHu3t2ene0XOPMNwB-aAaoEWsc3IcjOmW83ioimDkObZCidIhtYUx-3rvVXa6_NXOyCFJPpumPztiu9ECroLbF38y5R2Vxu8ztziD0uioFCGe2fDEs"
 		  }
 		},
+
+
 		  {
 			module: 'MMM-zoom',
 			config: {
