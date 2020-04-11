@@ -1,7 +1,8 @@
 # Jonathan Vargas Magic Mirror Repository
 
 Welcome to the Repository! 
-
+## contents
+This repository houses all of the files needed to build my magic mirror. 
 ### Intructions to download Raspbian
 1. Go to https://www.raspberrypi.org/downloads/ and download the raspberry imager.
 2. Insert your Micro SD card.
